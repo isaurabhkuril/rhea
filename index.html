@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Doctor's Day!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <audio id="messageSound" preload="auto">
+        <source src="/tune.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="container">
+        <div class="greeting-card">
+            <div class="image-container">
+                <img src="stethoscope-cartoon.png" alt="Cartoon Stethoscope" class="stethoscope-img">
+            </div>
+            <h1>Happy Doctor's Day!</h1>
+            <button id="revealBtn">Discover Your Message</button>
+            <div id="hiddenMessage" class="hidden">
+                <p>Dr. Rhea,</p>
+                <p>Your superpower isn't a cape—it’s that trusty stethoscope of yours! Here's to hoping your Doctor’s Day feels a bit more relaxed than a full moon night in the ER. Grab those quiet moments whenever they pop up... before your pager springs back to life!</p>
+                <p>Best regards,<br>Aashu</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
